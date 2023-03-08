@@ -1,16 +1,7 @@
 # bloc_access_navigation
 
-A new Flutter project.
+Used different approaches to transfer Cubit to different screens
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+But the best and easiest way to pass state globally(at different screens) use BlocProvider on MaterialApp(My app)
